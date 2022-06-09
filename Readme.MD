@@ -1,0 +1,1 @@
+This application scrapes data of Startup companies from a blog article.

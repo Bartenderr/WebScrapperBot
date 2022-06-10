@@ -3,7 +3,7 @@ import requests
 import csv
 
 try:
-    source = requests.get('https://www.cbinsights.com/research/well-funded-startups-us-map/')
+    source = requests.get('https://www.cbinsights.com/research/well-funded-startups-us-map/')g
     source.raise_for_status()
 
     soup = BeautifulSoup(source.text, 'html.parser')
